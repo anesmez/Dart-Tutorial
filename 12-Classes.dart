@@ -37,4 +37,7 @@ void main() {
   var person2 = Person("Jane", 25);
   person2.sayHello(); 
 
+  var person3 = Person.guest();
+  person3.sayHello();
+
 }
