@@ -16,7 +16,8 @@ class Vehicule {
 class Car extends Vehicule {
   double price = 0;
 
-  Car(String model, int year, this.price) : super(model, year); // super is used to call the parent constructor
+  Car(String model, int year, this.price): super(model, year); // super is used to call the parent constructor
+  // Car(String model, int year, this.price, super.model, super.year); // this can be used too
 
   void showOutput() {
     super.showOutput(); // super is used to call the parent method
@@ -24,7 +25,7 @@ class Car extends Vehicule {
   }
 }
 
-void main(){
+void main() {
   var car1 = Car("BMW", 2015, 10000);
   car1.showOutput();
 }

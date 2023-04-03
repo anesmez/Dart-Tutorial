@@ -75,4 +75,13 @@ void main() {
   gifts3['first'] = 'partridge';
   gifts3['second'] = 'turtledoves';
   print(gifts3);
+
 }
+
+
+/*
+Difference between where(), map(), and forEach() in Dart
+- where() : returns a new list containing all the elements that satisfy the given predicate
+- map() : returns a new list containing the results of applying the given function to each element of the original list
+- forEach() : applies the given function to each element of the list
+*/
