@@ -12,6 +12,8 @@ class Person {
     print("Constructor called");
   }
 
+  Person.alli({this.name, this.age}); // by using . operator, we can use multiple constructors
+
   // named constructor
   Person.guest() { // "customized" constructor
     name = "Guest";

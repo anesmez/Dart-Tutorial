@@ -39,7 +39,7 @@ void enableFlags({bool? bold, bool? hidden}) { // named parameters between {}
 
 // dynamic sum(var num1, {var num2}) => num1 + num2;
 // dynamic sum(var num1, {var num2}) => num1 + (num2 ??=0);
-dynamic sum(var num1, {var num2 = 0}) => num1 + num2;
+dynamic sum(var num1, {var num2 = 0}) => num1 + num2; // named parameters between {}, optional
 
-dynamic sum2(var num1, [var num2 = 0]) => num1 + num2;
+dynamic sum2(var num1, [var num2 = 0]) => num1 + num2; // positional parameters between [], optional
 
